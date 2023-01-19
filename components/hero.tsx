@@ -18,9 +18,10 @@ export const Hero = () => {
           color="text.secondary"
           paragraph
         >
-          Something short and leading about the collection below—its contents,
-          the creator, etc. Make it short and sweet, but not too short so folks
-          don&apos;t simply skip over it entirely.
+          have a playlist of songs to run to and I noticed that some are much
+          better than others; I kind of get into the groove with the beat. So, I
+          made a thing to take some songs that work with their BPM and ask
+          Spotify to make a new play list.
         </Typography>
         <Stack
           sx={{ pt: 4 }}
