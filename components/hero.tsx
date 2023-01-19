@@ -18,9 +18,16 @@ export const Hero = () => {
           color="text.secondary"
           paragraph
         >
-          have a playlist of songs to run to and I noticed that some are much
-          better than others; I kind of get into the groove with the beat. So, I
-          made a thing to take some songs that work with their BPM and ask
+          I have a playlist of songs to run to and I noticed that some are much
+          better than others; I kind of get into the groove with the beat.
+        </Typography>
+        <Typography
+          variant="h5"
+          align="center"
+          color="text.secondary"
+          paragraph
+        >
+          So, I made this thing to take some songs that work with their BPM and ask
           Spotify to make a new play list.
         </Typography>
         <Stack

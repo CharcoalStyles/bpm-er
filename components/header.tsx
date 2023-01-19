@@ -25,14 +25,16 @@ export const Header = ({
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             BPM-er
           </Typography>
-          <Button
-            sx={{ mx: 2 }}
-            color="secondary"
-            variant="contained"
-            onClick={onStartOver}
-          >
-            Start Over
-          </Button>
+          {!loggedIn && (
+            <Button
+              sx={{ mx: 2 }}
+              color="secondary"
+              variant="contained"
+              onClick={onStartOver}
+            >
+              Start Over
+            </Button>
+          )}
           <SpotifyLoginButton
             sx={{
               fontSize: {
